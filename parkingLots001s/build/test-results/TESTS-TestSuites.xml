@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+  <testsuite errors="0" failures="0" hostname="lizhu-PC" id="0" name="ParkBoyTest" package="test.java" tests="2" time="0.132" timestamp="2012-12-20T02:31:01">
+      <properties />
+
+      <testcase classname="test.java.ParkBoyTest" name="parkBoy_ShouldParkCar" time="0.0050" />
+
+      <testcase classname="test.java.ParkBoyTest" name="parkBoy_ShouldfetchCar" time="0.0" />
+
+      <system-out><![CDATA[]]></system-out>
+
+      <system-err><![CDATA[]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="lizhu-PC" id="1" name="ParkBoyTest_WhenHavingSeveralParkplace" package="test.java" tests="6" time="0.011" timestamp="2012-12-20T02:31:01">
+      <properties />
+
+      <testcase classname="test.java.ParkBoyTest_WhenHavingSeveralParkplace" name="should_park_Sucess_when_park_is_empty" time="0.0" />
+
+      <testcase classname="test.java.ParkBoyTest_WhenHavingSeveralParkplace" name="should_fetch_Sucess_when_park_is_empty" time="0.0" />
+
+      <testcase classname="test.java.ParkBoyTest_WhenHavingSeveralParkplace" name="should_fetch_Sucess_when_park_is_notempty" time="0.0010" />
+
+      <testcase classname="test.java.ParkBoyTest_WhenHavingSeveralParkplace" name="should_throwParkFullException_if_park_when_park_is_full" time="0.0010" />
+
+      <testcase classname="test.java.ParkBoyTest_WhenHavingSeveralParkplace" name="should_park_in_the_more_empty_parkplace" time="0.0" />
+
+      <testcase classname="test.java.ParkBoyTest_WhenHavingSeveralParkplace" name="should_park_in_the_first_parkplace_if_park_availableSize_same" time="0.0" />
+
+      <system-out><![CDATA[]]></system-out>
+
+      <system-err><![CDATA[]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="lizhu-PC" id="2" name="ParkManagerTest" package="test.java" tests="6" time="0.0070" timestamp="2012-12-20T02:31:01">
+      <properties />
+
+      <testcase classname="test.java.ParkManagerTest" name="should_fetch_Sucess_when_park_is_empty" time="0.0" />
+
+      <testcase classname="test.java.ParkManagerTest" name="should_fetch_Sucess_when_park_is_notempty" time="0.0020" />
+
+      <testcase classname="test.java.ParkManagerTest" name="should_throwParkFullException_if_park_when_park_is_full" time="0.0" />
+
+      <testcase classname="test.java.ParkManagerTest" name="parkManager_manyParkPlace_ShouldParkCar" time="0.0" />
+
+      <testcase classname="test.java.ParkManagerTest" name="parkManager_include_self_sub_parkBoy_ShouldParkCar" time="0.0010" />
+
+      <testcase classname="test.java.ParkManagerTest" name="parkManager_include_self_sub_parkBoy_FetchParkCar" time="0.0" />
+
+      <system-out><![CDATA[29:29
+1閵嗭拷29:29
+2閵嗭拷39:39
+3閵嗭拷49:49
+4閵嗭拷39:39
+]]></system-out>
+
+      <system-err><![CDATA[]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="lizhu-PC" id="3" name="ParkPlaceBoyTest" package="test.java" tests="2" time="0.0030" timestamp="2012-12-20T02:31:01">
+      <properties />
+
+      <testcase classname="test.java.ParkPlaceBoyTest" name="parkBoy_ShouldParkCar" time="0.0" />
+
+      <testcase classname="test.java.ParkPlaceBoyTest" name="parkBoy_ShouldfetchCar" time="0.0" />
+
+      <system-out><![CDATA[]]></system-out>
+
+      <system-err><![CDATA[]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="lizhu-PC" id="4" name="ParkTest" package="test.java" tests="4" time="0.0030" timestamp="2012-12-20T02:31:01">
+      <properties />
+
+      <testcase classname="test.java.ParkTest" name="should_carplaceNum_Minus_1_if_have_empty_Carplace_when_park" time="0.0" />
+
+      <testcase classname="test.java.ParkTest" name="should_throw_ParkFullException_if_park_full_when_park" time="0.0" />
+
+      <testcase classname="test.java.ParkTest" name="should_get_ticket_if_park_success_when_park" time="0.0" />
+
+      <testcase classname="test.java.ParkTest" name="should_fetchSuccess_and_carplaceNum_add_1_if_have_fetched_car_when_fetch" time="0.0" />
+
+      <system-out><![CDATA[]]></system-out>
+
+      <system-err><![CDATA[]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="lizhu-PC" id="5" name="ParklLotReportTest" package="test.java" tests="2" time="0.012" timestamp="2012-12-20T02:31:01">
+      <properties />
+
+      <testcase classname="test.java.ParklLotReportTest" name="parkingManager_show_reporter" time="0.0070" />
+
+      <testcase classname="test.java.ParklLotReportTest" name="parkingboy_show_reporter" time="0.0010" />
+
+      <system-out><![CDATA[------------------------------主管报表-----------------------------------
+停车场编号001
+        车位数：15
+        空位数：14
+-----------停车仔小涛 报表-------------
+        停车场编号：003
+              车位数：35
+              空位数：34
+        所属停车场车位数：35
+        所属停车场空位数：34
+-----------停车仔小强 报表-------------
+        停车场编号：002
+              车位数：50
+              空位数：49
+        所属停车场车位数：50
+        所属停车场空位数：49
+所有车位数：100
+所有空位数：97
+-----------停车仔小宝 报表-------------
+        停车场编号：001
+              车位数：30
+              空位数：29
+        所属停车场车位数：30
+        所属停车场空位数：29
+-----------停车仔小华 报表-------------
+        停车场编号：002
+              车位数：20
+              空位数：19
+        所属停车场车位数：20
+        所属停车场空位数：19
+]]></system-out>
+
+      <system-err><![CDATA[]]></system-err>
+
+  </testsuite>
+</testsuites>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite errors="0" failures="0" hostname="lizhu-PC" name="test.java.ParkManagerTest" tests="6" time="0.0070" timestamp="2012-12-20T02:31:01">
+  <properties />
+  <testcase classname="test.java.ParkManagerTest" name="should_fetch_Sucess_when_park_is_empty" time="0.0" />
+  <testcase classname="test.java.ParkManagerTest" name="should_fetch_Sucess_when_park_is_notempty" time="0.0020" />
+  <testcase classname="test.java.ParkManagerTest" name="should_throwParkFullException_if_park_when_park_is_full" time="0.0" />
+  <testcase classname="test.java.ParkManagerTest" name="parkManager_manyParkPlace_ShouldParkCar" time="0.0" />
+  <testcase classname="test.java.ParkManagerTest" name="parkManager_include_self_sub_parkBoy_ShouldParkCar" time="0.0010" />
+  <testcase classname="test.java.ParkManagerTest" name="parkManager_include_self_sub_parkBoy_FetchParkCar" time="0.0" />
+  <system-out><![CDATA[29:29
+1閵嗭拷29:29
+2閵嗭拷39:39
+3閵嗭拷49:49
+4閵嗭拷39:39
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

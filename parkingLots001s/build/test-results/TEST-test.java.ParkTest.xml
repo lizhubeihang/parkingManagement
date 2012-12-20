@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite errors="0" failures="0" hostname="lizhu-PC" name="test.java.ParkTest" tests="4" time="0.0030" timestamp="2012-12-20T02:31:01">
+  <properties />
+  <testcase classname="test.java.ParkTest" name="should_carplaceNum_Minus_1_if_have_empty_Carplace_when_park" time="0.0" />
+  <testcase classname="test.java.ParkTest" name="should_throw_ParkFullException_if_park_full_when_park" time="0.0" />
+  <testcase classname="test.java.ParkTest" name="should_get_ticket_if_park_success_when_park" time="0.0" />
+  <testcase classname="test.java.ParkTest" name="should_fetchSuccess_and_carplaceNum_add_1_if_have_fetched_car_when_fetch" time="0.0" />
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

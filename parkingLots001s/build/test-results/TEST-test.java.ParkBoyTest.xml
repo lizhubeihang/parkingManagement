@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite errors="0" failures="0" hostname="lizhu-PC" name="test.java.ParkBoyTest" tests="2" time="0.132" timestamp="2012-12-20T02:31:01">
+  <properties />
+  <testcase classname="test.java.ParkBoyTest" name="parkBoy_ShouldParkCar" time="0.0050" />
+  <testcase classname="test.java.ParkBoyTest" name="parkBoy_ShouldfetchCar" time="0.0" />
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

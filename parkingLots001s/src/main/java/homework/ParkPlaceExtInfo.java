@@ -1,0 +1,36 @@
+package main.java.homework;
+
+
+public class ParkPlaceExtInfo extends ParkPlace{
+    private String parkPlaceNo="";
+    private String parkPlaceName="";
+
+    private int totalCapacity = 0;
+
+    public ParkPlaceExtInfo(String parkPlaceNo,String parkPlaceName,int capacity) {
+        super(capacity);
+        totalCapacity = capacity;
+        this.parkPlaceName = parkPlaceName;
+        this.parkPlaceNo = parkPlaceNo;
+    }
+
+    public String getParkPlaceNo() {
+        return parkPlaceNo;
+    }
+
+    public void setParkPlaceNo(String parkPlaceNo) {
+        this.parkPlaceNo = parkPlaceNo;
+    }
+
+    public String getParkPlaceName() {
+        return parkPlaceName;
+    }
+
+    public void setParkPlaceName(String parkPlaceName) {
+        this.parkPlaceName = parkPlaceName;
+    }
+
+    public int getTotalCapacity() {
+        return totalCapacity;
+    }
+}

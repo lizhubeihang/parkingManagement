@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite errors="0" failures="0" hostname="lizhu-PC" name="test.java.ParklLotReportTest" tests="2" time="0.012" timestamp="2012-12-20T02:31:01">
+  <properties />
+  <testcase classname="test.java.ParklLotReportTest" name="parkingManager_show_reporter" time="0.0070" />
+  <testcase classname="test.java.ParklLotReportTest" name="parkingboy_show_reporter" time="0.0010" />
+  <system-out><![CDATA[------------------------------主管报表-----------------------------------
+停车场编号001
+        车位数：15
+        空位数：14
+-----------停车仔小涛 报表-------------
+        停车场编号：003
+              车位数：35
+              空位数：34
+        所属停车场车位数：35
+        所属停车场空位数：34
+-----------停车仔小强 报表-------------
+        停车场编号：002
+              车位数：50
+              空位数：49
+        所属停车场车位数：50
+        所属停车场空位数：49
+所有车位数：100
+所有空位数：97
+-----------停车仔小宝 报表-------------
+        停车场编号：001
+              车位数：30
+              空位数：29
+        所属停车场车位数：30
+        所属停车场空位数：29
+-----------停车仔小华 报表-------------
+        停车场编号：002
+              车位数：20
+              空位数：19
+        所属停车场车位数：20
+        所属停车场空位数：19
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
